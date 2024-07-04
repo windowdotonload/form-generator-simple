@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "MicrosoftYaHeiBold";
+  src: url("./MicrosoftYaHei-Bold.ttf");
+}
+@font-face {
+  font-family: "Microsoft YaHei Blod";
+  src: url("./MicrosoftYaHeiLight.ttf");
+}
+@font-face {
+  font-family: "MicrosoftYaHei";
+  src: url("./MicrosoftYaHei.ttf");
+}
+@font-face {
+  font-family: "Microsoft YaHei";
+  src: url("./MicrosoftYaHei.ttf");
+}
+@font-face {
+  font-family: "MicrosoftYaHeiLight";
+  src: url("./MicrosoftYaHeiLight.ttf");
+}
