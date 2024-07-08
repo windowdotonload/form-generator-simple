@@ -21,7 +21,6 @@
     "@wangeditor/editor": "^5.1.23",
     "@wangeditor/editor-for-vue": "^1.0.2",
     "axios": "^0.19.2",
-    "chromedriver": "2.27.2",
     "crypto-js": "^4.1.1",
     "echarts": "^5.4.0",
     "el-table-infinite-scroll": "^1.0.11",
