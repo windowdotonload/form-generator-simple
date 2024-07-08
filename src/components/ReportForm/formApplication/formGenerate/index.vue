@@ -33,7 +33,7 @@ export default {
     };
   },
   async beforeMount() {
-    this.revertFormComponentList();
+    // this.revertFormComponentList();
   },
   methods: {
     findBaseCompInfo(componentType) {

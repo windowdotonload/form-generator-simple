@@ -8,7 +8,7 @@ module.exports = {
   dev: {
     // Paths
     assetsSubDirectory: "static",
-    assetsPublicPath: "/",
+    assetsPublicPath: "./",
     proxyTable: {
       "/api": {
         // 你请求的第三方接口
@@ -66,12 +66,12 @@ module.exports = {
     devEnv: require("./dev.env"),
     localEnv: require("./local.env"),
     // Template for index.html
-    index: path.resolve(__dirname, "../msdp/index.html"),
+    index: path.resolve(__dirname, "../dist/index.html"),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, "../msdp"),
+    assetsRoot: path.resolve(__dirname, "../dist"),
     assetsSubDirectory: "static",
-    assetsPublicPath: "../msdp/",
+    assetsPublicPath: "../dist/",
 
     /**
      * Source Maps

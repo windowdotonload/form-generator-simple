@@ -10,7 +10,7 @@ export default {
     FormCreate,
   },
   created() {
-    getGuideListReq();
+    // getGuideListReq();
   },
   beforeDestroy() {
     clearGuideList();

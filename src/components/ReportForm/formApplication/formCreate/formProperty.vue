@@ -27,8 +27,8 @@ import { getWoFormType, addForm } from "../api/api.js";
 export default {
   inject: ["editFormData"],
   created() {
-    this.getWoFormType();
-    this.revertFormInfo();
+    // this.getWoFormType();
+    // this.revertFormInfo();
   },
   data() {
     return {
