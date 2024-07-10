@@ -56,6 +56,7 @@ export default {
       if (type) this.formActivePanel = type;
     },
     cancelCreate() {
+      return;
       this.$confirm("请确认是否保存本次编辑内容，取消后将无法找回当前编辑内容", "提示", {
         confirmButtonText: "确定",
         cancelButtonText: "取消",
@@ -140,6 +141,7 @@ export default {
       }
     },
     async save() {
+      return;
       this.saveFormExec();
     },
     async saveFormExec() {
@@ -174,7 +176,7 @@ export default {
     },
   },
   setup() {
-    const containerHeight = ref("92%");
+    const containerHeight = ref("100%");
     const formActivePanel = ref(2);
     const leftBtnActiveStyle = "border: 1px solid #d10000;border-top-left-radius: 4px;border-bottom-left-radius: 4px;box-sizing: border-box;";
     const rightBtnActiveStyle = "border: 1px solid #d10000;border-top-right-radius: 4px;border-bottom-right-radius: 4px;padding-left:1px;box-sizing: border-box;";
