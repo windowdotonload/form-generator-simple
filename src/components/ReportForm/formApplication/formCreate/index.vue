@@ -8,10 +8,11 @@
           <el-radio-button :label="2" :style="getActiveStyle(2)">表单编辑器</el-radio-button>
         </el-radio-group>
       </div>
-      <div>
+      <div style="display: flex; align-items: center">
         <el-button type="danger" size="mini" @click="save">保存</el-button>
         <!-- <el-button type="danger" plain size="mini" @click="prevForm">预览</el-button> -->
         <el-button size="mini" @click="cancelCreate">取消</el-button>
+        <img src="../assets/icon/github.svg" style="width: 23px; height: 23px; margin-left: 10px; cursor: pointer" @click="openGithub" />
       </div>
     </div>
     <div class="form-crate-content">
@@ -44,6 +45,9 @@ export default {
     this.initWoFormId();
   },
   methods: {
+    openGithub() {
+      window.open("https://github.com/windowdotonload/form-generator-simple", "_blank");
+    },
     initWoFormId() {
       if (this.$route.query.woFormId) {
         this.woFormId = this.$route.query.woFormId.toString();
