@@ -9,9 +9,9 @@
         </el-radio-group>
       </div>
       <div style="display: flex; align-items: center">
-        <el-button type="danger" size="mini" @click="save">保存</el-button>
+        <el-button type="danger" size="mini" @click="save">发送至邮箱</el-button>
         <!-- <el-button type="danger" plain size="mini" @click="prevForm">预览</el-button> -->
-        <el-button size="mini" @click="cancelCreate">取消</el-button>
+        <el-button size="mini" @click="cancelCreate">预览</el-button>
         <img src="../assets/icon/github.svg" style="width: 23px; height: 23px; margin-left: 10px; cursor: pointer" @click="openGithub" />
       </div>
     </div>
